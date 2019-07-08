@@ -4,7 +4,7 @@ import logo1 from './image/jimage2.png'
 import logo2 from './image/jimage4.png'
 import './jumiabc.css'
 
-class Headerbc extends Component {
+class App extends Component {
   render () {
     return (
       <div className='headerbc'>
@@ -30,4 +30,5 @@ class Headerbc extends Component {
     )
   }
 }
-export default Headerbc
+
+export default App;
