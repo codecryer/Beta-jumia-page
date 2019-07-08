@@ -1,0 +1,21 @@
+.headerbc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black
+}
+
+.head1bc {
+  display:flex ;
+
+  padding: 10px
+}
+
+.head2bc {
+  display: flex;
+  margin-right: 20%
+}
+
+.head2bc p {
+  padding: 10px
+}
