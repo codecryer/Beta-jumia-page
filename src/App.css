@@ -1,4 +1,37 @@
 .Footerem{
-  background-color: black;
+  background-color: rgb(58, 59, 59);
   color: antiquewhite;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Footerem li{
+  color: rgb(238, 238, 238);
+  font-size: 12px;
+  margin-top: 10px;
+  list-style: none;
+
+}
+.Footerem a {
+  text-decoration-line: overline;
+  
+}
+.Footerem a  {
+font-size: 12px;
+color: rgb(238, 238, 238);
+text-decoration-line: none;
+}
+.Footerem h7{
+  color: rgb(241, 147, 6);
+  font-size: 12px;
+  margin-top: 10px;
+
+}
+.div1em{
+
 }

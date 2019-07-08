@@ -1,19 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Rowa from "./images/Rowa";
+import React, {Component} from 'react'
 import Headerbc from './Headerbc'
-import Footerem from './Footer';
+import './App.css'
+import Footerem from './Footerem';
+class App extends Component {
+  render () {
+    return (
+      <div>
+        <Headerbc/>
 
-function App() {
-  return (
-    <div className="App">
-      
-       <Headerbc />
-       <Footerem />
-      
-    </div>
-  );
+        <Footerem />
+      </div>
+    )
+  }
 }
 
 export default App;
