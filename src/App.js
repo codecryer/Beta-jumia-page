@@ -3,16 +3,16 @@ import Headerbc from './Headerbc'
 
 import './App.css'
 import Footerem from './Footerem';
-
+import Rowa from './Rowa';
 import Subheaderbc from './Subheaderbc'
 
 class App extends Component {
   render () {
     return (
-      <div>
+      <div className="main">
         <Headerbc/>
         <Subheaderbc/>
-         
+        <Rowa/>
         <Footerem />
       </div>
     )
