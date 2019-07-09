@@ -1,6 +1,16 @@
-className {
-    width: 100%;
-    background-color: red;
-    height: 50px;
-    border: solid
+.rowb {
+height: 40px;
+    color: white;
+  background-color: red;
+  width: 95%;
+  margin-left: 7%;
+  
+  
+
+}
+.rowb a{
+    float:right;
+}
+.img3 {
+  float:right;
 }

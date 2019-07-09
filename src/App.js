@@ -1,16 +1,19 @@
 import React, {Component} from 'react'
 import Headerbc from './Headerbc'
+
+import './App.css'
+import Footerem from './Footerem';
+import Rowa from './Rowa';
 import Subheaderbc from './Subheaderbc'
-import './Rowa.css'
-import Rowa from "./Rowa"
 
 class App extends Component {
   render () {
     return (
-      <div>
+      <div className="main">
         <Headerbc/>
         <Subheaderbc/>
         <Rowa/>
+        <Footerem />
       </div>
     )
   }
