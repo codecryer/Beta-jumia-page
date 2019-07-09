@@ -33,88 +33,113 @@
   }
 }
 
-/* styling for the signup component begins here */
-#Signup-jumia {
+/* work on sign up page begins here by samuel nzekwe */
+#jumia {
   min-height: 100vh;
   flex-direction: column;
   flex: 1 0 auto;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: auto;
   display: flex;
-  box-sizing: boarder-box;
+  box-sizing: border-box;
+  background-color: cornflowerblue;
 }
 
-#jumia .three {
+.jumia1 {
   align-items: center;
-}
-
-#jumia .four {
-  justify-content: center;
-}
-
-#jumia .seven {
+  justify-content: space-between;
   color: #75757a;
-}
-
-#jumia .sixth {
   background-color: #f5f5f5;
-}
-
-.first.four {
   padding-bottom: 4px;
   padding-top: 4px;
-
-}
-
-.first {
-  font-size: .75rem;
-}
-
-.second {
+  font-size: 0.75rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 1184px;
   width: 100%;
-  flex-wrap: wrap;
+
   flex: 0 1 auto;
   display: flex;
-}
-
-* {
-
   box-sizing: border-box;
+  height: 10vh;
 }
 
-#jumia .right {
+.jumia2 {
   justify-content: flex-start;
-}
-
-#jumia .left {
   display: flex;
+  padding-top: 4px;
+  width: 10%;
+  height: 7vh;
+  font-weight: bold;
 }
 
-.down {
-  flex-basis: 18.75%;
-  max-width: 18.75;
-  min-width: 18.75%;
-  width: 18.75%;
-  padding-left: 8px;
-  padding-right: 8px;
+.marketplace {
+  color: #f68b1e;
+  text-decoration: none;
 }
 
-* {
+.jumia3 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  justify-content: space-around;
+
+  display: flex;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  list-style-type: none;
+  margin-right: 30%;
+  color: #75757a;
+  font-weight: bold;
+}
+
+ul li a:link {
+  color: #75757a;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: blue;
+}
+
+.header {
+  height: 30vh;
+  background-color: red;
+  z-index: 70;
+  top: 0;
+  position: sticky;
+  display: block;
   box-sizing: border-box;
+  border-bottom: #282c34 120px;
 }
 
-#jumia .mass {
-  margin: 10px;
+.wrapper {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  display: block;
+  box-sizing: border-box;
+  height: 20vh;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  width: 87%;
 }
 
-#jumia .ic {
-  fill: #f68b1e;
-}
+.logo {
 
-* {
-  box-sizing: border-box
+  margin-right: auto;
+
+  width: 20%;
+  justify-content: flex-start;
+  background-color: #282c34;
+  display: flex;
+
 }
