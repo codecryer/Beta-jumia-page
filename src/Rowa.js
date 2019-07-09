@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 // import {Link, Redirect, BrowserRouter} from "react-router-dom"
-import logo from './images/row1.png'
+import logo from './images/row1.png';
+import "./Rowa.css"
 
 
 class Rowa extends Component {
@@ -12,7 +13,7 @@ class Rowa extends Component {
             </div>
             <br/>
             <br/>
-            <div activeClassName = "rowb">
+            <div className = "rowb">
             <h2>Deals Of The Day</h2>
             <a>SEE ALL  ></a>
             </div>
