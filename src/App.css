@@ -27,7 +27,94 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* styling for the signup component begins here */
+#Signup-jumia {
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  display: flex;
+  box-sizing: boarder-box;
+}
+
+#jumia .three {
+  align-items: center;
+}
+
+#jumia .four {
+  justify-content: center;
+}
+
+#jumia .seven {
+  color: #75757a;
+}
+
+#jumia .sixth {
+  background-color: #f5f5f5;
+}
+
+.first.four {
+  padding-bottom: 4px;
+  padding-top: 4px;
+
+}
+
+.first {
+  font-size: .75rem;
+}
+
+.second {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1184px;
+  width: 100%;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  display: flex;
+}
+
+* {
+
+  box-sizing: border-box;
+}
+
+#jumia .right {
+  justify-content: flex-start;
+}
+
+#jumia .left {
+  display: flex;
+}
+
+.down {
+  flex-basis: 18.75%;
+  max-width: 18.75;
+  min-width: 18.75%;
+  width: 18.75%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#jumia .mass {
+  margin: 10px;
+}
+
+#jumia .ic {
+  fill: #f68b1e;
+}
+
+* {
+  box-sizing: border-box
 }

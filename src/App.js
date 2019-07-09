@@ -1,12 +1,15 @@
-import React, {Component} from 'react'
-import Headerbc from './Headerbc'
+import React, { Component } from "react";
+import Headerbc from "./Headerbc";
+import Signup from "./Signup";
+
 class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <Headerbc/>
+        {/* <Headerbc /> */}
+        <Signup />
       </div>
-    )
+    );
   }
 }
 
