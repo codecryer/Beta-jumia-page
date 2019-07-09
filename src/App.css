@@ -9,6 +9,9 @@
   justify-content: space-between;
   
 }
+.Footerem h7{
+  margin-top: 9px;
+}
 
 .Footerem li{
   color: rgb(238, 238, 238);
@@ -20,6 +23,11 @@
 .Footerem a {
   text-decoration-line: overline;
   
+}
+.Footerem a:hover{
+  
+  text-decoration: underline;
+  cursor: pointer;
 }
 .Footerem a  {
 font-size: 12px;

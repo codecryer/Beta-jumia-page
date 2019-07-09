@@ -25,37 +25,37 @@ class Footerem extends Component {
           <li>Sell on Jumia</li>
           <li>Become an Affiliate Partner</li>
           <li>Become a Sales Consultant</li>
-          <l1>Become a Jumia Vendor Service Provider</l1><br/>
+          <li>Become a Jumia Vendor Service Provider</li>
           </div>
         </div>
-        <div>
-          <h7>GET TO KNOW US</h7><br/>
-            <l1>Careers</l1><br/>
-           <l1>About Us</l1><br/>
+        <div><br/>
+          <h7>GET TO KNOW US</h7>
+            <li>Careers</li>
+           <li>About Us</li>
               <li>Jumia Express</li><br/>
-             <l1>Shipped From Overseas</l1>
-           <l1>Jumia Prime</l1><br/>
-           <l1>Terms and Conditions</l1>
-          <br/>  <l1>Privacy Policy</l1>
-          <br/>  <l1>Economy Postal Shipping </l1>
-          <br/>   <l1>Help Center</l1>
+             <li>Shipped From Overseas</li>
+           <li>Jumia Prime</li>
+           <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+           <li>Economy Postal Shipping </li>
+            <li>Help Center</li>
         </div>
-        <div className='div1em'>
-          <h7>JUMIA INTERNATIONAL</h7><br/>
-          <l1>Algeria</l1><br/>
-          <l1>Cameroon</l1><br/>
-          <l1><a href='#'>Egypt</a></l1><br/>
-          <l1>Ghana</l1><br/>
-          <l1>Ivory Coast</l1><br/>
-          <l1>Kenya</l1><br/>
-          <l1>Morocco</l1><br/>
-          <l1>Senegal</l1><br/>
-          <l1>Tanzania</l1><br/>
-          <l1>Tunisia</l1><br/>
-          <l1>Uganda</l1><br/>
+        <div className='div1em'><br />
+          <h7>JUMIA INTERNATIONAL</h7>
+          <li>Algeria</li>
+          <li>Cameroon</li>
+          <li><a href='#'>Egypt</a></li>
+          <li><a>Ghana</a></li>
+          <li><a>Ivory Coast</a></li>
+          <li><a>Kenya</a></li>
+          <li><a>Morocco</a></li>
+          <li><a>Senegal</a></li>
+          <li><a>Tanzania</a></li>
+          <li><a>Tunisia</a></li>
+          <li><a>Uganda</a></li>
         </div>
         <div>
-          <div>
+          <div><br/>
               <h7>JOIN US ON</h7><li>picture 1</li>
               <li>picture2</li>
           </div>
