@@ -2,11 +2,12 @@
 height: 40px;
     color: white;
   background-color: red;
-  width: 95%;
+  width: 87%;
   margin-left: 7%;
-  
-  
 
+}
+.rowc{
+  text-align: center;
 }
 .rowb a{
     float:right;

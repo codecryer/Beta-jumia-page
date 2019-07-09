@@ -2,11 +2,14 @@
   background-color: rgb(58, 59, 59);
   color: antiquewhite;
   bottom: 0;
-  width: 100%;
+
   position: relative;
-  height: 400px;
+  height: 450px;
   display: flex;
   justify-content: space-between;
+  
+}
+.middle{
   
 }
 .Footerem h7{
