@@ -6,12 +6,10 @@
   position: relative;
   height: 450px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   
 }
-.middle{
-  
-}
+
 .Footerem h7{
   margin-top: 9px;
 }
@@ -41,8 +39,5 @@ text-decoration-line: none;
   color: rgb(241, 147, 6);
   font-size: 12px;
   margin-top: 10px;
-
-}
-.div1em{
 
 }

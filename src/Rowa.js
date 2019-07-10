@@ -32,9 +32,10 @@ class Rowa extends Component {
               <img src={logo} alt = "images"/> 
             </div> 
             <div className = "rowb">
-          <p>Deals of the Day
-              <a>See All ></a>
-          </p>
+                <div>
+          Deals of The Day
+              <a>SEE ALL ></a>
+          </div>
             </div>
             <div className = "rowc">
              <img src ={logo2} alt = "images" /><img src ={logo11} alt = "images" />
@@ -58,13 +59,13 @@ class Rowa extends Component {
              <div className="rowc">
              <img src ={logo16} alt = "images" /><img src ={logo17} alt = "images" />
              </div>
-             <div>
+             <div className="rowc">
              <img src ={logo18} alt = "images" />
              </div>
-             <div>
+             <div className="rowc">
              <img src ={logo20} alt = "images" /> <img src ={logo21} alt = "images" />
              </div>
-             <div>
+             <div className="rowc">
              <img src ={logo19} alt = "images" />
              </div>
              <div>
