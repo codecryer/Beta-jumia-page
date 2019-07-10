@@ -8,6 +8,8 @@ height: 45px;
   border-top-right-radius: 6px;
   font-size: 20px;
 }
+  width: 87%;
+  margin-left: 7%;
 
 .rowc{
   text-align: center;
@@ -16,7 +18,11 @@ height: 45px;
 .rowb div {
 padding: 8px;
 }
-.rowb a {
+
+.rowc{
+  text-align: center;
+}
+.rowb a{
     float:right;
     cursor: pointer;
 }

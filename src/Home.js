@@ -3,7 +3,7 @@ import Headerbc from "./Headerbc";
 import Subheaderbc from "./Subheaderbc";
 import Rowa from "./Rowa";
 import Footerem from "./Footerem";
-import Onfooter from "./Onfooterme"
+import Onfooterme from './Onfooterme'
 
 class Home extends Component {
   render() {
@@ -12,7 +12,7 @@ class Home extends Component {
         <Headerbc />
         <Subheaderbc />
         <Rowa />
-        <Onfooter />
+   <Onfooterme />
         <Footerem />
       </div>
     );

@@ -1,26 +1,28 @@
-import React, {Component} from 'react'
-import basket from './image/jimage4.png'
+import React, { Component } from "react";
+import basket from "./image/jimage4.png";
 
 class Subheaderbc extends Component {
-  render () {
+  render() {
     return (
-      <div className='subcontainerbc'>
-        <div className='containbc'>
-          <div className='jumiabasketbc'>
-            <div className='box1'></div>
-            <div className='box1'></div>
-            <div className='box1'></div>
-
+      <div className="subcontainerbc">
+        <div className="containbc">
+          <div className="jumiabasketbc">
+            <div className="box1" />
+            <div className="box1" />
+            <div className="box1" />
           </div>
-          <img src={basket} alt='basket' height='38px'/>
+          <img src={basket} alt="basket" height="38px" />
         </div>
-        <div className='searchbc'>
-          <input type='text' placeholder='Search for products, brands and categories'/>
+        <div className="searchbc">
+          <input
+            type="text"
+            placeholder="Search for products, brands and categories"
+          />
           <button>SEARCH</button>
         </div>
       </div>
-    ) 
+    );
   }
 }
 
-export default Subheaderbc
+export default Subheaderbc;
