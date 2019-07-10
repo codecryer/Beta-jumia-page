@@ -28,7 +28,7 @@ class Rowa extends Component {
     render(){
         return (
             <div>
-            <div>
+            <div className="rowc">
               <img src={logo} alt = "images"/> 
             </div> 
             <div className = "rowb">
@@ -39,21 +39,23 @@ class Rowa extends Component {
             <div className = "rowc">
              <img src ={logo2} alt = "images" /><img src ={logo11} alt = "images" />
             </div>
-            <div>
+            <div className="rowc">
                 <img src ={logo3} alt = "images"/><img src ={logo4} alt = "images"/><img src ={logo5} alt = "images"/>
                 <img src ={logo6} alt = "images"/><img src ={logo7} alt = "images"/><img src ={logo8} alt = "images"/>
             </div>
+            <div className="rowc">
              <img src ={logo9} alt = "images"/><img src ={logo10} alt = "images"/>
-             <div>
+             </div>
+             <div className="rowc">
              <img src ={logo12} alt = "images"/>
              </div>
-             <div>
+             <div className="rowc">
               <img src ={logo13} alt = "images" /><img src ={logo14} alt = "images" />
              </div>
-             <div>
+             <div className="rowc">
              <img src ={logo15} alt = "images" />
              </div>
-             <div>
+             <div className="rowc">
              <img src ={logo16} alt = "images" /><img src ={logo17} alt = "images" />
              </div>
              <div>

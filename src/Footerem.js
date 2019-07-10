@@ -6,44 +6,45 @@ class Footerem extends Component {
       <div className="Footerem">
         <div>
 <div>
+  <br/>
           <h7>LET US HELP YOU</h7>
           <li><a href="#">Help Center</a></li>
-          <li>Warranty</li>
-          <li>Service Centers</li>
-          <li>Contact Us</li>
-          <li>How to Shop on Jumia</li>
-          <li>Shipping & Delivery</li>
-          <li>Return Policy</li>
-          <li>Corporate & Bulk Purchase</li>
-          <li>Jumia Mobile Apps</li>
-          <li>Jumia Bot (Beta)</li>
+          <li><a>Warranty</a></li>
+          <li><a>Service Centers</a></li>
+          <li><a>Contact Us</a></li>
+          <li><a>How to Shop on Jumia</a></li>
+          <li><a>Shipping & Delivery</a></li>
+          <li><a>Return Policy</a></li>
+          <li><a>Corporate & Bulk Purchase</a></li>
+          <li><a>Jumia Mobile Apps</a></li>
+          <li><a>Jumia Bot (Beta)</a></li>
           
         </div>
         <div>
             <br/>
           <h7>MAKE MONEY WITH US</h7>
-          <li>Sell on Jumia</li>
-          <li>Become an Affiliate Partner</li>
-          <li>Become a Sales Consultant</li>
-          <li>Become a Jumia Vendor Service Provider</li>
+          <li><a>Sell on Jumia</a></li>
+          <li><a>Become an Affiliate Partner</a></li>
+          <li><a>Become a Sales Consultant</a></li>
+          <li><a>Become a Jumia Vendor Service Provider</a></li>
           </div>
         </div>
         <div><br/>
           <h7>GET TO KNOW US</h7>
-            <li>Careers</li>
-           <li>About Us</li>
-              <li>Jumia Express</li><br/>
-             <li>Shipped From Overseas</li>
-           <li>Jumia Prime</li>
-           <li>Terms and Conditions</li>
-            <li>Privacy Policy</li>
-           <li>Economy Postal Shipping </li>
-            <li>Help Center</li>
+            <li><a>Careers</a></li>
+           <li><a>About Us</a></li>
+              <li><a>Jumia Express</a></li>
+             <li><a>Shipped From Overseas</a></li>
+           <li><a>Jumia Prime</a></li>
+           <li><a>Terms and Conditions</a></li>
+            <li><a>Privacy Policy</a></li>
+           <li><a>Economy Postal Shipping </a></li>
+            <li><a>Help Center</a></li>
         </div>
         <div className='div1em'><br />
           <h7>JUMIA INTERNATIONAL</h7>
-          <li>Algeria</li>
-          <li>Cameroon</li>
+          <li><a>Algeria</a></li>
+          <li><a>Cameroon</a></li>
           <li><a href='#'>Egypt</a></li>
           <li><a>Ghana</a></li>
           <li><a>Ivory Coast</a></li>
