@@ -85,7 +85,7 @@
 }
 
 .searchbc input {
-  width: 400px;
+  width: 500px;
   height: 35px;
   border-radius: 0%;
   border: 1px solid white;
@@ -95,6 +95,7 @@
 
 .searchbc button {
   height: 37px;
+  width: 80px;
   border-radius: 0%;
   border:1px solid white ;
   background: orange;

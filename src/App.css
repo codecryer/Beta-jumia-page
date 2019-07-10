@@ -3,7 +3,7 @@
   color: antiquewhite;
   bottom: 0;
   width: 100%;
-  position: fixed;
+  position: relative;
   height: 400px;
   display: flex;
   justify-content: space-between;
