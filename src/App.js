@@ -3,7 +3,7 @@ import Headerbc from "./Headerbc";
 import Login from "./slogin";
 import Register from "./Register";
 import Profile from "./Profile";
-
+import Futmeter from "./Futmeter";
 import "./App.css";
 import Footerem from "./Footerem";
 import Rowa from "./Rowa";
@@ -16,10 +16,11 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Login} />
+          <Route exact path="/Login" component={Login} />
           <Route path="/Home" component={Home} />
           <Route path="/Profile" component={Profile} />
           <Route path="/Register" component={Register} />
+          <Route path="/Futmeter" component={Futmeter} />
         </Switch>
       </BrowserRouter>
     );

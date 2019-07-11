@@ -38,9 +38,13 @@
   flex: 1 0 auto;
   display: flex;
   box-sizing: border-box;
+  height: 8vh;
+  width: 100%;
+
 }
 
 .jumia1 {
+
   align-items: center;
   justify-content: space-between;
   color: #75757a;
@@ -56,15 +60,15 @@
   flex: 0 1 auto;
   display: flex;
   box-sizing: border-box;
-  height: 10vh;
+  height: 5vh;
 }
 
 .jumia2 {
-  justify-content: flex-start;
+  justify-content: center;
   display: flex;
   padding-top: 4px;
   width: 10%;
-  height: 7vh;
+  height: 3vh;
   font-weight: bold;
 }
 
@@ -125,12 +129,13 @@ h3 {
   width: 87%;
   margin: auto;
   border-bottom: 1px solid #75757a;
+  height: 9vh;
 }
 
 .inputx {
   width: 60%;
   margin: auto;
-  height: 5vh;
+  height: 95vh;
 }
 
 .inputx input {
@@ -141,7 +146,8 @@ h3 {
 }
 
 .signup {
-  height: 8vh;
+  height: 5vh;
+
 }
 
 .btns {
@@ -186,4 +192,209 @@ h3 {
 
 p {
   color: #75757a;
+  height: 12vh;
+}
+
+.phi {
+
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 38%;
+}
+
+.lara {
+  margin-left: 7%;
+  color: #f68b1e;
+  text-decoration: none;
+}
+
+.contfu {
+  width: 100%;
+  height: 60vh;
+  background-color: #323232;
+  color: white;
+}
+
+.contmain {
+  height: 170vh;
+}
+
+.alpha {
+  height: 120vh;
+
+  padding-top: 0%;
+}
+
+.gamma {
+  height: 5vh;
+
+}
+
+.tango {
+
+  height: 10vh;
+}
+
+.bodyzeta {
+  background-color: white;
+  height: 78vh;
+  display: flex;
+}
+
+.la {
+  /* background-color: red; */
+  height: 70vh;
+  padding-top: 20px;
+  margin-top: 15px;
+  margin-bottom: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: none;
+
+}
+
+.looh {
+  /* display: flex; */
+
+  justify-content: center;
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+
+/* form .rust {
+  height: 30%;
+} */
+
+form .rust h2 {
+  margin-left: 50%;
+}
+
+form .xas {
+  height: 32%;
+}
+
+form .ui {
+  margin-left: 22%;
+}
+
+
+input {
+  margin-left: 22%;
+}
+
+.cra {
+  /* display: flex; */
+
+  justify-content: center;
+  width: 42%;
+}
+
+.la h2 {
+  color: #f68b1e;
+
+
+}
+
+.lin {
+  width: 1px;
+  background-color: #75757a;
+}
+
+.art {
+  height: 57%;
+  justify-content: center;
+
+}
+
+.b1 {
+
+  background-color: #f68b1e;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+}
+
+form .ui .ut1 {
+  background-color: #f68b1e;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+}
+
+form .xas input {
+  width: 75%;
+  height: 5vh;
+  border: none;
+  border-bottom: #75757a solid 1.5px;
+}
+
+form .ui .ut2 {
+  background-color: #40588a;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+}
+
+
+.joy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 15%;
+}
+
+.b2 {
+
+  background-color: #40588a;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+
+}
+
+
+
+.rust {
+  height: 22%;
+
+
+}
+
+.xas {
+  height: 5vh;
+  width: 100%;
+  border: none;
+  border-radius: 2rem solid black;
+}
+
+.ui {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+
+}
+
+form .art h2 {
+  margin-left: 20%;
 }
