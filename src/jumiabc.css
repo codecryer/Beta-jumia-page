@@ -130,3 +130,26 @@
 .help img {
   width: 95px;
 }
+
+.menubc {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdownmenu {
+  display: none;
+  position: absolute;
+
+}
+
+.dropdownmenu a {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px gray
+}
+
+.menubc:hover .dropdownmenu {
+  display: block
+}
