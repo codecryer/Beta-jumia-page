@@ -22,8 +22,8 @@
   list-style: none;
 }
 
-.Footerem a {
-  text-decoration-line: overline;
+.Footerem a:hover {
+  text-decoration-line: underline;
 }
 
 .Footerem a {
