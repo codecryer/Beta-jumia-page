@@ -23,6 +23,13 @@
   padding-inline-end: 7px
 }
 
+.head1bc img:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue
+}
+
+
 
 .head1bc p {
   font-size: 10px;
@@ -48,6 +55,13 @@
   padding: 5px;
   padding-inline-start: 40px;
   font-size: 14px;
+  
+}
+
+.head2bc p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue
 }
 
 /* subheader styling */
@@ -56,8 +70,8 @@
   display: flex;
   border: 1px solid white;
   padding-top: 15px;
-  margin-top: 0px;
   height: 55px;
+  background: white
   
 }
 
@@ -67,7 +81,7 @@
 
 .jumiabasketbc {
   margin-top:10px;
-  margin-right: 10px
+  margin-right: 5px
 }
 
 .box1 {
@@ -76,16 +90,16 @@
   height: 2px;
   width: 20px;
   margin-top: 3px;
-  margin-left: 15px
+  margin-left: 55px
 }
 
 .searchbc {
   display: flex;
-  margin-left: 35px
+  margin-left: 30px
 }
 
 .searchbc input {
-  width: 400px;
+  width: 600px;
   height: 35px;
   border-radius: 0%;
   border: 1px solid white;
@@ -95,8 +109,47 @@
 
 .searchbc button {
   height: 37px;
+  width: 80px;
   border-radius: 0%;
   border:1px solid white ;
   background: orange;
   color: white
+}
+
+.help {
+  display: flex;
+  padding-left: 10px;
+  margin-top: -15px
+}
+
+
+.help p {
+  padding-left: 20px;
+}
+
+.help img {
+  width: 95px;
+}
+
+.menubc {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdownmenu {
+  display: none;
+  position: absolute;
+
+}
+
+.dropdownmenu a {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px gray
+}
+
+.menubc:hover .dropdownmenu {
+  display: block
 }

@@ -2,6 +2,9 @@
   background-color: rgb(58, 59, 59);
   color: antiquewhite;
   bottom: 0;
+  width: 100%;
+  position: relative;
+  height: 400px;
 
   position: relative;
   height: 450px;
@@ -24,6 +27,7 @@
 
 .Footerem a:hover {
   text-decoration-line: underline;
+  cursor: pointer;
 }
 
 .Footerem a {

@@ -1,4 +1,18 @@
 .rowb {
+height: 40px;
+    color: white;
+  background-color: red;
+  width: 92%;
+  margin-left: 4%;
+  
+  
+
+}
+.rowb a{
+    float:right;
+}
+.img3 {
+  float:right;
 height: 45px;
     color: white;
   background-color: red;
@@ -8,7 +22,7 @@ height: 45px;
   border-top-right-radius: 6px;
   font-size: 20px;
 
-  width: 86%;
+  width: 87%;
   margin-left: 7%;
 }
 
