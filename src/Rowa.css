@@ -2,8 +2,8 @@
 height: 40px;
     color: white;
   background-color: red;
-  width: 95%;
-  margin-left: 7%;
+  width: 92%;
+  margin-left: 4%;
   
   
 
@@ -13,4 +13,85 @@ height: 40px;
 }
 .img3 {
   float:right;
+height: 45px;
+    color: white;
+  background-color: red;
+  width: 85%;
+  margin-left: 7%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-size: 20px;
+
+  width: 87%;
+  margin-left: 7%;
+}
+
+.rowc{
+  text-align: center;
+  cursor: pointer;
+}
+.rowb div {
+padding: 8px;
+}
+
+.rowc{
+  text-align: center;
+}
+.rowb a{
+    float:right;
+    cursor: pointer;
+}
+.img3 {
+  float:right;
+}
+
+/* segun styling for onfooterme */
+.Ontopme{
+ background-color: rgb(246, 247, 245);
+ margin-bottom: 20px;
+ width: 87%;
+ margin-left: 6.5%;
+ border-radius: 6px;
+ padding: 6px;
+}
+
+.Ontopme h1{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.603);
+  font-family: Arial;
+}
+.Ontopme p{
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.603);
+}
+.routeme h8{
+  color: rgb(131, 134, 134);
+  font-size: 15px;
+}
+.routeme h7{
+  color: rgb(75, 82, 82);
+  font-size: 16px;
+}
+.routeme{
+  margin-top: 1%;
+}
+.routeme a {
+  background-color: darkorange;
+  margin-left:6px;
+  padding: 2px;
+  color: antiquewhite;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold; 
+
+}
+.routeme a:hover{
+  background-color: rgb(216, 119, 0);
+}
+.holdme{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(215, 216, 209, 0.781);
+  height: 90px;
+
 }
