@@ -68,9 +68,7 @@ class Rowa extends Component {
              <div className="rowc">
              <img src ={logo19} alt = "images" />
              </div>
-             <div>
-                 <p></p>
-             </div>
+            
              
             </div>
           

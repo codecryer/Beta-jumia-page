@@ -3,7 +3,7 @@ import basket from "./image/jimage4.png";
 import cart from './image/cart.png'
 import {BrowserRouter,Link, NavLink,Redirect} from 'react-router-dom'
 
-class Subheaderbc extends Component {
+class Subheaderprofile extends Component {
   render() {
     return (
       
@@ -26,12 +26,19 @@ class Subheaderbc extends Component {
         <div className='help'>
          <p>Need<br></br><b>Help?</b></p>
          <div className='menubc'>
-          <p className='menubuttonbc'>Your<br/><b>Account</b></p>
+          <p className='menubuttonbc'>Hello<br/><b>Admin</b></p>
           <div className='dropdownmenu'>
-          <Link to='/login'>Login</Link>
-           <br/>
-          <Link to='/Register'>Sign up</Link>
+              <div className="next">
+          <Link to='/login'><a>My Account</a><br/></Link>
+          <Link to='/login'><a>My Orders</a><br/></Link>
+          <Link to='/login'><a>My Saved Items</a><br/></Link>
+         <hr/>
+          </div>
           
+          <div className="tradme">
+            
+          <Link to='/Register'><a>LOGOUT</a></Link>
+          </div>
           </div>
 
         </div>
@@ -46,4 +53,4 @@ class Subheaderbc extends Component {
   }
 }
 
-export default Subheaderbc;
+export default Subheaderprofile;

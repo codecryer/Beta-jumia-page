@@ -14,7 +14,7 @@ class Home extends Component {
         <Headerbc />
         <Subheaderbc />
         <Rowa />
-   <Onfooterme />
+        <Onfooterme />
         <Footerem />
       </div>
     );

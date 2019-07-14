@@ -1,13 +1,19 @@
 import React, { Component } from "react";
-import Subheaderbc from "./Subheaderbc";
+import Subheaderprofile from "./Subheaderprofile";
 import Headerbc from "./Headerbc";
+import Rowa from './Rowa'
+import Onfooterme from './Onfooterme'
+import Footerem from './Footerem'
 
 class Profile extends Component {
   render() {
     return (
       <div>
          <Headerbc />
-        <Subheaderbc />
+        <Subheaderprofile />
+        <Rowa/>
+        <Onfooterme/>
+        <Footerem />
       </div>
     );
   }

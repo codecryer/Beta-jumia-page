@@ -2,11 +2,11 @@
 height: 40px;
     color: white;
   background-color: red;
-  width: 92%;
-  margin-left: 4%;
+  width: 87%;
+  margin-left: 6.5%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
   
-  
-
 }
 .rowb a{
     float:right;
@@ -49,16 +49,18 @@ padding: 8px;
 .Ontopme{
  background-color: rgb(246, 247, 245);
  margin-bottom: 20px;
- width: 87%;
+ width: 86%;
  margin-left: 6.5%;
  border-radius: 6px;
  padding: 6px;
+
 }
 
 .Ontopme h1{
   font-size: 22px;
   color: rgba(0, 0, 0, 0.603);
   font-family: Arial;
+
 }
 .Ontopme p{
   font-size: 13px;
@@ -93,5 +95,6 @@ padding: 8px;
   justify-content: space-around;
   background-color: rgba(215, 216, 209, 0.781);
   height: 90px;
+  flex-grow: inherit;
 
 }

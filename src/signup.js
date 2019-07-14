@@ -8,7 +8,7 @@ import dealimage from "./images/dealsimage.jpeg";
 import houseimage from "./images/houseimage.png";
 import oneimage from "./images/oneimage.png";
 import partyimage from "./images/partyimage.png";
-import Subheaderbc from "./Subheaderbc";
+
 
 class Signup extends Component {
   render() {
