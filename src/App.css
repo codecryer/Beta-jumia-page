@@ -10,8 +10,8 @@
 
   display: flex;
   justify-content: space-around;
-  
 }
+
 .images{
   cursor: pointer;
 }
@@ -227,12 +227,7 @@ p {
   text-decoration: none;
 }
 
-.contfu {
-  width: 100%;
-  height: 60vh;
-  background-color: #323232;
-  color: white;
-}
+
 
 .contmain {
   height: 170vh;
@@ -413,4 +408,57 @@ form .ui .ut2 {
 
 form .art h2 {
   margin-left: 20%;
+}
+.loot {
+  
+  width: 95%;
+  margin-left: 5%;
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.line{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+.contfu{
+
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contfu h1{
+  font-size: 13px;
+  color: rgb(241, 127, 60);
+}
+.contfu li{
+font-size: 12px;
+list-style: none;
+}
+.contfu li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.TROD{
+    background-color: #f59b41;
+    
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+.TROD a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.TROD2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.TROD2{
+  text-align: center;
+  margin-top: 1rem;
 }

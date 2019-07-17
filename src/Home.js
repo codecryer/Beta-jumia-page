@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Headerbc from "./Headerbc";
-import Subheaderbc from "./Subheaderbc";
+import Subheaderpme from "./Subheaderpme";
 import Rowa from "./Rowa";
 import Footerem from "./Footerem";
 import Onfooterme from './Onfooterme'
@@ -12,7 +12,7 @@ class Home extends Component {
       <div>
         <Tophead/>
         <Headerbc />
-        <Subheaderbc />
+        <Subheaderpme />
         <Rowa />
         <Onfooterme />
         <Footerem />

@@ -21,7 +21,7 @@ class Signup extends Component {
             </a>
           </div>
           <div className="jumia3">
-            <div classname="lists" />
+            <div className="lists" />
             <ul>
               <li>
                 <img src={logo3} width="60px" height="13vh" />
