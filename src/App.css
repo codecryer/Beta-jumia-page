@@ -1,33 +1,464 @@
-.App {
-  text-align: center;
+.Footerem {
+  background-color: rgb(66, 66, 66);
+  color: antiquewhite;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+
+
+  position: relative;
+
+  display: flex;
+  justify-content: space-around;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.images{
+  cursor: pointer;
+}
+.jumiagroup{
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Footerem h7{
+  margin-top: 9px;
+  justify-content: space-between;
+}
+
+.Footerem li {
+  color: rgb(238, 238, 238);
+  font-size: 12px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.Footerem a:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.Footerem a {
+  font-size: 12px;
+  color: rgb(238, 238, 238);
+  text-decoration-line: none;
+}
+
+.Footerem h7 {
+  color: rgb(241, 147, 6);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* work on sign up page begins here by samuel nzekwe */
+#jumia {
+  flex-direction: column;
+  flex: 1 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  height: 8vh;
+  width: 100%;
+
+}
+
+.jumia1 {
+
+  align-items: center;
+  justify-content: space-between;
+  color: #75757a;
+  background-color: #f5f5f5;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 0.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1184px;
+  width: 100%;
+
+  flex: 0 1 auto;
+  display: flex;
+  box-sizing: border-box;
+  height: 5vh;
+}
+
+.jumia2 {
+  justify-content: center;
+  display: flex;
+  padding-top: 4px;
+  width: 10%;
+  height: 3vh;
+  font-weight: bold;
+}
+
+.marketplace {
+  color: #f68b1e;
+  text-decoration: none;
+}
+
+.jumia3 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  justify-content: space-around;
+
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  list-style-type: none;
+  margin-right: 30%;
+  color: #75757a;
+  font-weight: bold;
+}
+
+ul li a:link {
+  color: #75757a;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: blue;
+}
+
+.go {
+  width: 100%;
+
+}
+
+.pop {
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h3 {
+  color: #f68b1e;
+  margin-left: 18%;
+}
+
+.subheader {
+  width: 87%;
+  margin: auto;
+  border-bottom: 1px solid #75757a;
+  height: 9vh;
+}
+
+.inputx {
+  width: 60%;
+  margin: auto;
+  height: 95vh;
+}
+
+.inputx input {
+  width: 40%;
+  margin: 2rem;
+  border: none;
+  border-bottom: 1px solid #75757a;
+}
+
+.signup {
+  height: 5vh;
+
+}
+
+.btns {
+  height: 20vh;
+  width: 100%;
+
+  justify-content: space-around;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.or {
+  border: none;
+  justify-content: center;
+  border-bottom: 2rem solid #75757a;
+  width: 100%;
+}
+
+.btn1 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 6vh;
+  font-weight: 900;
+  color: white;
+  background-color: #f68b1e;
+  border-radius: 6px;
+}
+
+.btn2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 6vh;
+  font-weight: 900;
+  color: white;
+  background-color: #40588a;
+  border-radius: 6px;
+}
+
+p {
+  color: #75757a;
+  height: 12vh;
+}
+
+.phi {
+
+  width: 100%;
+  height: 15vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 38%;
+}
+
+.lara {
+  margin-left: 7%;
+  color: #f68b1e;
+  text-decoration: none;
+}
+
+
+
+.contmain {
+  height: 170vh;
+}
+
+.alpha {
+  height: 120vh;
+
+  padding-top: 0%;
+}
+
+.gamma {
+  height: 5vh;
+
+}
+
+.tango {
+
+  height: 10vh;
+}
+
+.bodyzeta {
+  background-color: white;
+  height: 78vh;
+  display: flex;
+}
+
+.la {
+  /* background-color: red; */
+  height: 70vh;
+  padding-top: 20px;
+  margin-top: 15px;
+  margin-bottom: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: none;
+
+}
+
+.looh {
+  /* display: flex; */
+
+  justify-content: center;
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+
+/* form .rust {
+  height: 30%;
+} */
+
+form .rust h2 {
+  margin-left: 50%;
+}
+
+form .xas {
+  height: 32%;
+}
+
+form .ui {
+  margin-left: 22%;
+}
+
+
+input {
+  margin-left: 22%;
+}
+
+.cra {
+  /* display: flex; */
+
+  justify-content: center;
+  width: 42%;
+}
+
+.la h2 {
+  color: #f68b1e;
+
+
+}
+
+.lin {
+  width: 1px;
+  background-color: #75757a;
+}
+
+.art {
+  height: 57%;
+  justify-content: center;
+
+}
+
+.b1 {
+
+  background-color: #f68b1e;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+}
+
+form .ui .ut1 {
+  background-color: #f68b1e;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+}
+
+form .xas input {
+  width: 75%;
+  height: 5vh;
+  border: none;
+  border-bottom: #75757a solid 1.5px;
+}
+
+form .ui .ut2 {
+  background-color: #40588a;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+}
+
+
+.joy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 15%;
+}
+
+.b2 {
+
+  background-color: #40588a;
+  color: white;
+  height: 7vh;
+  border-radius: 8px;
+  width: 75%;
+
+}
+
+
+
+.rust {
+  height: 22%;
+
+
+}
+
+.xas {
+  height: 5vh;
+  width: 100%;
+  border: none;
+  border-radius: 2rem solid black;
+}
+
+.ui {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+
+}
+
+form .art h2 {
+  margin-left: 20%;
+}
+.loot {
+  
+  width: 95%;
+  margin-left: 5%;
+  background-color: rgb(66, 66, 66);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.line{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contfu{
+
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contfu h1{
+  font-size: 13px;
+  color: rgb(241, 127, 60);
+}
+.contfu li{
+font-size: 12px;
+list-style: none;
+}
+.contfu li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.TROD{
+    background-color: #f59b41;
+    
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+.TROD a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.TROD2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.TROD2{
+  text-align: center;
+  margin-top: 1rem;
 }
