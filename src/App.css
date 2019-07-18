@@ -7,19 +7,21 @@
 
 
   position: relative;
-
+  padding-left: none;
   display: flex;
   justify-content: space-around;
 }
 
-.images{
-  cursor: pointer;
-}
-.jumiagroup{
+
+.images {
   cursor: pointer;
 }
 
-.Footerem h7{
+.jumiagroup {
+  cursor: pointer;
+}
+
+.Footerem h7 {
   margin-top: 9px;
   justify-content: space-between;
 }
@@ -40,6 +42,7 @@
   font-size: 12px;
   color: rgb(238, 238, 238);
   text-decoration-line: none;
+
 }
 
 .Footerem h7 {
@@ -70,7 +73,7 @@
   font-size: 0.75rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1184px;
+
   width: 100%;
 
   flex: 0 1 auto;
@@ -149,9 +152,10 @@ h3 {
 }
 
 .inputx {
-  width: 60%;
+  width: 50%;
   margin: auto;
   height: 95vh;
+
 }
 
 .inputx input {
@@ -257,16 +261,17 @@ p {
 
 .la {
   /* background-color: red; */
-  height: 70vh;
+  height: 80vh;
   padding-top: 20px;
   margin-top: 15px;
   margin-bottom: none;
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 84%;
   margin-left: auto;
   margin-right: auto;
   padding: none;
+
 
 }
 
@@ -305,10 +310,13 @@ form .ui {
 
 input {
   margin-left: 22%;
+  border-bottom: 0.6px solid transparent;
+  background-color: transparent;
 }
 
 .cra {
   /* display: flex; */
+
 
   justify-content: center;
   width: 42%;
@@ -409,56 +417,64 @@ form .ui .ut2 {
 form .art h2 {
   margin-left: 20%;
 }
+
 .loot {
-  
+
   width: 95%;
   margin-left: 5%;
   background-color: rgb(66, 66, 66);
   color: white;
 }
 
-.line{
+.line {
   width: 80%;
   margin-left: 10%;
   margin-top: 40px;
 }
 
-.contfu{
+.contfu {
 
   padding: 2rem;
   display: flex;
   justify-content: space-between;
 }
-.contfu h1{
+
+.contfu h1 {
   font-size: 13px;
   color: rgb(241, 127, 60);
 }
-.contfu li{
-font-size: 12px;
-list-style: none;
+
+.contfu li {
+  font-size: 12px;
+  list-style: none;
 }
-.contfu li:hover{
+
+.contfu li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.TROD{
-    background-color: #f59b41;
-    
-    text-align: center;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 30%;
+
+.TROD {
+  background-color: #f59b41;
+
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 30%;
 }
-.TROD a{
+
+.TROD a {
   color: aliceblue;
   text-decoration: none;
 }
-.TROD2 a{
+
+.TROD2 a {
   text-decoration: none;
   color: black;
   font-size: 12px;
 }
-.TROD2{
+
+.TROD2 {
   text-align: center;
   margin-top: 1rem;
 }

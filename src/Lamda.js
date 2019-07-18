@@ -1,44 +1,38 @@
 import React, { Component } from "react";
 import "./App.css";
-import {Redirect} from 'react-router-dom'
-
+import { Redirect } from "react-router-dom";
 
 class Lamda extends Component {
-
-  constructor(){
-    super()
+  constructor() {
+    super();
     let loggedIn = false;
     this.state = {
-      email:"",
-      password:"",
+      email: "",
+      password: "",
       loggedIn
+    };
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  handleChange(e) {
+    let target = e.target;
+    let value = target.type === "checkbox" ? target.checked : target.value;
+    let name = target.name;
+
+    this.setState({
+      [name]: value
+    });
+  }
+  handleSubmit(e) {
+    e.preventDefault();
+
+    if (this.state.email === "Admin" && this.state.password === "Admin1234") {
+      //  this.props.history.push('./')
+    } else {
+      alert("incorrect password");
     }
-    this.handleChange=this.handleChange.bind(this)
-    this.handleSubmit=this.handleSubmit.bind(this)
   }
-handleChange(e){
-let target = e.target;
-let value = target.type === "checkbox" ? target.checked : target.value;
-let name = target.name;
-
-this.setState({
-  [name] : value
-})
-}
-handleSubmit(e){
-  e.preventDefault()
-  
-  if(this.state.email==="Admin" && this.state.password==="Admin1234"){
-  //  this.props.history.push('./')
-  }else{
-    alert ("incorrect password")
-  }
-  
-}
   render() {
-
-
-
     return (
       <div className="la">
         <div className="looh">
@@ -47,11 +41,25 @@ handleSubmit(e){
               <h2>Login</h2>
             </div>
             <div className="xas">
-              <input type="text" placeholder="E-mail" name="email" value={this.state.email} onChange={this.handleChange} />
+              <input
+                type="text"
+                placeholder="E-mail"
+                name="email"
+                value={this.state.email}
+                onChange={this.handleChange}
+              />
               <br />
               <br />
-              <input type="password" placeholder="Password" name="password" value={this.state.password} onChange={this.handleChange} />
+              <br />
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                value={this.state.password}
+                onChange={this.handleChange}
+              />
             </div>
+            <br />
             <div className="ui">
               <button className="ut1">LOGIN</button>
 
@@ -66,6 +74,7 @@ handleSubmit(e){
             <div className="art">
               <h2>Create Your Jumia Account</h2>
             </div>
+            <br />
             <div className="joy">
               <button className="b1">CREATE AN ACCOUNT VIA E-MAIL</button>
 

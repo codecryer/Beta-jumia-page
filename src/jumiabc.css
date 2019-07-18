@@ -5,13 +5,12 @@
   background: #F5F5F5;
   height: 40px;
   width: 100%
-  
 }
 
 .head1bc {
-  display:inline-flex ;
+  display: inline-flex;
   /* flex-direction: row ; */
-  justify-content:space-between;
+  justify-content: space-between;
   margin-left: 3%;
   padding: 5px;
   margin-top: -15px
@@ -44,18 +43,18 @@
   margin-left: 30px
 }
 
-.head2bc img{
- margin-top: 8px;
- padding-inline-end:30px ;
+.head2bc img {
+  margin-top: 8px;
+  padding-inline-end: 30px;
 }
 
 .head2bc p {
   margin-top: 6px;
-  
+
   padding: 5px;
   padding-inline-start: 40px;
   font-size: 14px;
-  
+
 }
 
 .head2bc p:hover {
@@ -71,8 +70,9 @@
   border: 1px solid white;
   padding-top: 15px;
   height: 55px;
-  background: white
-  
+  background: white;
+  width: 100%;
+
 }
 
 .containbc {
@@ -80,7 +80,7 @@
 }
 
 .jumiabasketbc {
-  margin-top:10px;
+  margin-top: 10px;
   margin-right: 5px
 }
 
@@ -111,7 +111,7 @@
   height: 37px;
   width: 80px;
   border-radius: 0%;
-  border:1px solid white ;
+  border: 1px solid white;
   background: orange;
   color: white
 }
@@ -133,7 +133,7 @@
 
 .menubc {
   position: relative;
-  display:block;
+  display: block;
   cursor: pointer;
 
 }
@@ -146,18 +146,19 @@
 .dropdownmenu .next a {
 
   text-decoration: none;
-padding: 4px;
+  padding: 4px;
   border: 1px gray;
   color: black;
   margin: auto;
 }
+
 .dropdownmenu .tradme a {
 
   text-decoration: none;
-padding: 4px;
-color: rgb(250, 250, 250);
-font-size: 15px;
-  
+  padding: 4px;
+  color: rgb(250, 250, 250);
+  font-size: 15px;
+
 }
 
 .menubc:hover .dropdownmenu {
@@ -167,25 +168,27 @@ font-size: 15px;
   height: 120px;
   width: 190px;
   margin: 0;
-  top:100%;
- border: solid 0.1px rgb(221, 213, 213);
+  top: 100%;
+  border: solid 0.1px rgb(221, 213, 213);
   align-items: center;
 }
-.menubc:hover .dropdownmenu .next{
 
-margin-top: 20px;
-margin-left: 9px;
-font-size: 13px;
-margin-right: 9px;
+.menubc:hover .dropdownmenu .next {
+
+  margin-top: 20px;
+  margin-left: 9px;
+  font-size: 13px;
+  margin-right: 9px;
 }
-.menubc:hover .dropdownmenu .tradme{
-background-color: rgba(228, 228, 228, 0.911);
-text-align: center;
-width: 70%;
-padding: auto;
-margin-top: 10px;
-margin-left: 15%;
-height: 20px;
+
+.menubc:hover .dropdownmenu .tradme {
+  background-color: rgba(228, 228, 228, 0.911);
+  text-align: center;
+  width: 70%;
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 15%;
+  height: 20px;
 
 }
 
@@ -197,13 +200,13 @@ height: 20px;
   display: flex
 }
 
-.subnav1{
+.subnav1 {
   border: 1px solid white;
   width: 16%
 }
 
 .mainno1bc {
-  
+
   margin-bottom: -73px;
   font-size: 11px;
   padding: 5px
@@ -211,33 +214,33 @@ height: 20px;
 
 .no1bc {
   position: relative;
-  display:block;
+  display: block;
   cursor: pointer;
 
 
 }
 
-.subno1bc{
+.subno1bc {
   display: none;
   justify-content: space-around;
 
 }
 
-.subno1bc  {
+.subno1bc {
   display: none;
   justify-content: space-around;
 
 }
 
 
-.no1bc:hover .subno1bc{
+.no1bc:hover .subno1bc {
   display: -webkit-inline-flex;
   margin-left: 50%;
   margin-top: -710px;
   background: white
-  /* justify-content:space-around; */
+    /* justify-content:space-around; */
 
-  /* background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255);
   position: absolute;
   height: 120px;
   width: 190px;
@@ -317,7 +320,7 @@ height: 20px;
 
 .sub1 {
   display: flex;
-  padding-top: 5px 
+  padding-top: 5px
 }
 
 .sub1 h5 {
@@ -331,7 +334,7 @@ height: 20px;
 
 .sub2 {
   display: flex;
-  padding-top: 10px 
+  padding-top: 10px
 }
 
 .sub2 h5 {
